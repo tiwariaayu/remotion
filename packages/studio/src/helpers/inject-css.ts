@@ -21,6 +21,11 @@ const makeDefaultGlobalCSS = () => {
     /* Override Chakra UI position: relative on body */
     position: static !important;
   }
+
+  .timeline-root {
+    user-select: none;
+    -webkit-user-select: none;
+  }
   
   .remotion-splitter {
     user-select: none;
