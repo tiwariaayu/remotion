@@ -16,12 +16,6 @@ const nextConfig = {
       test: /\.md$/,
       type: "asset/source",
     });
-
-    config.ignoreWarnings = config.ignoreWarnings || [];
-    config.ignoreWarnings.push({
-      module: /@mediabunny\/ac3/,
-    });
-
     return config;
   },
 };
